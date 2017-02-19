@@ -1,0 +1,192 @@
+html{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+.company {
+background-color: black;
+color: white;
+}
+.container {
+display: flex;
+align-items: center;
+padding: 12px 0 12px 0.5em;
+max-width: 960px;
+margin: 0px auto;
+}
+.container img {
+  padding-right: 15px;
+  height: 1.5em;
+}
+.main {
+  background-size: cover;
+  height: 25em;
+  background-position: center;
+  background-image: url("../moto.jpeg");
+}
+.main img {
+  width: 100%;
+}
+.announcement {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: Roboto;
+}
+.arrival {
+  background-color: black;
+    color: white;
+    width: 20em;
+    /*padding: 2em 3em;*/
+    position: relative;
+    top: 9em;
+}
+.arrival h4 {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  font-size: 1rem;
+  font-size: bold;
+  padding-bottom: .25rem;
+}
+.arrival h2 {
+  font-weight: bold;
+  padding-top: .25rem;
+  padding-left: 3rem;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+nav {
+  background-color: firebrick;
+  color: white;
+}
+.container-nav {
+  /*display: block;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: .75em 0;*/
+  margin: 0 auto;
+
+}
+.container-nav ul {
+  display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75em 0;
+    list-style: none;
+}
+.container-nav li {
+  display: list-item;
+}
+/*.mobile-nav-container {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.mobile-nav-container li {
+  padding: .75em 0;
+}*/
+
+.item-container {
+  margin: 0 auto;
+}
+.products {
+display: flex;
+justify-content: space-between;
+margin: 3em 0 0 0;
+}
+.pen {
+  border: 4px solid black;
+  width: 30%;
+}
+.pen img {
+  height: 9rem;
+  padding: 2rem 3rem;
+}
+.pen span {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: .5rem 0;
+}
+.watch {
+  border: 4px solid black;
+  width: 30%;
+}
+.watch img {
+  height: 9rem;
+  padding: 2rem 3rem;
+}
+.watch span {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: .5rem 0;
+}
+.glasses {
+    border: 4px solid black;
+    width: 30%;
+}
+.glasses img {
+  height: 9rem;
+  max-width: 8em;
+  padding: 2rem 3rem;
+}
+.glasses span {
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: block;
+  padding: .5rem 0;
+}
+
+
+.secondary-item-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.location {
+width: 35%;
+display: block;
+}
+.location span {
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+}
+.hours {
+  width: 35%;
+  display: block;
+}
+.hours span {
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+}
+
+
+
+
+
+
+footer {
+  background-color: black;
+    color: white;
+    padding: 5rem 0;
+    margin-top: 4em;
+    display: block;
+}
+.footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+}
